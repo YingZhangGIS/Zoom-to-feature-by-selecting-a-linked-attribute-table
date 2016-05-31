@@ -1,0 +1,16 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>HighlightFeatureProject</Name><AddInID>{72bc982f-f77d-42ae-a8bf-4386dc7717ca}</AddInID><Description>Highlight Feature from Relevant Table</Description><Version>0.1</Version><Image /><Author>YingZhang</Author><Company>OUCSA</Company><Date>05/30/2016</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="HighlightFeature_addin.py" namespace="HighlightFeature_addin"><ArcMap>
+    <Commands>
+        <ComboBox caption="Attribute Table" category="HighlightFeatureProject" class="ComboBoxClass1" id="HighlightFeature_addin.combobox" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <ComboBox caption="Attribute Column" category="HighlightFeatureProject" class="ComboBoxClass2" id="HighlightFeature_addin.combobox_1" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <ComboBox caption="Feature Layer" category="HighlightFeatureProject" class="ComboBoxClass3" id="HighlightFeature_addin.combobox_2" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <ComboBox caption="Feature Atrribute" category="HighlightFeatureProject" class="ComboBoxClass4" id="HighlightFeature_addin.combobox_3" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip=""><Help heading="" /></ComboBox>
+        <Button caption="Execute" category="HighlightFeatureProject" class="ButtonClass5" id="HighlightFeature_addin.button" image="Images\Execute.png" message="" tip=""><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="ZoomByAttribute" category="HighlightFeatureProject" id="ZoomByAttribute_addin.toolbar" showInitially="true"><Items><ComboBox refID="HighlightFeature_addin.combobox" /><ComboBox refID="HighlightFeature_addin.combobox_1" /><ComboBox refID="HighlightFeature_addin.combobox_2" /><ComboBox refID="HighlightFeature_addin.combobox_3" /><Button refID="HighlightFeature_addin.button" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
